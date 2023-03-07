@@ -1,8 +1,5 @@
 # 정렬
 
-***
-***
-
 ## 삽입 정렬(Insertion Sort)
 
 
@@ -57,7 +54,6 @@ public class Insertion_sort {
 
 ### 코드 결과
 ![삽입 정렬 결과](https://user-images.githubusercontent.com/107795830/223327355-7d489836-065f-42dc-84ca-9ec968c1b18c.png)
-***
 
 ## 버블 정렬(Bubble Sort)
 
@@ -101,6 +97,6 @@ public class BubbleSort {
 }
 
 ```
-코드 결과
+### 코드 결과
 ![image](https://user-images.githubusercontent.com/107795830/223332997-714efe27-232f-4480-b506-2cdc0aa31e8c.png)
 
