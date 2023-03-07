@@ -35,12 +35,12 @@ public class Insertion_sort {
 		int temp = 0;
 		
 		System.out.println("정렬 전" + Arrays.toString(arr));
-		for(int i = 1; i < arr.length; i++) { 		// 삽입 정렬은 두번째 자리부터 시작하기 때문에 i를 1로 지정하였습니다.
-			for(int j = i; j > 0; j--) {  		// 배열 방번호 
-				if(arr[j-1] > arr[j]) { 	// j-1이 j보다 클경우 조건이 성립하게 만들었습니다.
-					 temp = arr[j-1]; 	// 자리를 옮겨주기 위해서 temp값에 arr[j-1]을 저장하였습니다.
-				     arr[j-1] = arr[j];		// j-1자리에 j를 옮기기 위한 코드입니다.
-				     arr[j] = temp;		// temp에 저장한 값을 arr[j]방에 넣어주었습니다.
+		for(int i = 1; i < arr.length; i++) { 		// 삽입 정렬은 두번째 자리부터 시작하기 때문에 i를 1로 지정
+			for(int j = i; j > 0; j--) {  		// 배열의 방 번호를 위하여 만듦
+				if(arr[j-1] > arr[j]) { 	// j-1이 j보다 클경우 조건이 성립하게 만듦
+					 temp = arr[j-1]; 	// 자리를 옮겨주기 위해서 temp값에 arr[j-1]을 저장
+				     arr[j-1] = arr[j];		// j-1자리에 j를 옮기기 위한 코드
+				     arr[j] = temp;		// temp에 저장한 값을 arr[j]방에 넣
 				}
 			}
 			System.out.printf("정렬 과정 : %d번 %s\n", i, Arrays.toString(arr));
@@ -105,8 +105,9 @@ public class BubbleSort {
 ## 3. 퀵 정렬(Quick sort)
 
 ### 퀵 정렬 알고리즘 개념
-* 퀵 정렬은 평균적으로 매우 빠른 속도를 자랑하는 정렬입니다.
-* 퀵 정렬은 리스트 안에 있는 원소중 한가지를 선택하는데, 이렇게 고른 원소를 ## 피벗 이라고 합니다
+* 퀵 정렬은 평균적으로 매우 빠른 속도를 자랑하는 정렬이다.
+* 퀵 정렬은 리스트 안에 있는 요소 중 한 가지를 선택하는데, 이렇게 고른 원소를 피벗 이라고 한다.
+* 피벗을 선택하였다면 그 기준으로 작은  
 
 ### 퀵 정렬 
 ![image](https://user-images.githubusercontent.com/107795830/223459387-5329fef6-8743-4633-bced-2b581e8888aa.png)
