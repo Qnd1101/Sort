@@ -100,3 +100,5 @@ public class BubbleSort {
 ### 코드 결과
 ![image](https://user-images.githubusercontent.com/107795830/223332997-714efe27-232f-4480-b506-2cdc0aa31e8c.png)
 
+## 퀵 정렬(Quick sort)
+
