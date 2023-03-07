@@ -55,7 +55,7 @@ public class Insertion_sort {
 
 ```
 
-### 출력화면
+### 코드 결과
 ![삽입 정렬 결과](https://user-images.githubusercontent.com/107795830/223327355-7d489836-065f-42dc-84ca-9ec968c1b18c.png)
 ***
 
