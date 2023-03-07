@@ -1,7 +1,7 @@
 # 정렬
-  I. 삽입 정렬(Insertion Sort)
- II. 버블 정렬(Bubble Sort)
-III. 퀵 정렬(Quick Sort)
+Ⅰ. 삽입 정렬(Insertion Sort)<br/>
+Ⅱ. 버블 정렬(Bubble Sort)<br/>
+Ⅲ. 퀵 정렬(Quick Sort)<br/>
 
 # I. 삽입 정렬(Insertion Sort)
 
