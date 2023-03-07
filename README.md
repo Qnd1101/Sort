@@ -71,7 +71,9 @@ public class Insertion_sort {
 ### Java Code
 ```java
 package sort;
+
 import java.util.Arrays;
+
 public class BubbleSort {
 
 	public static void main(String[] args) {
@@ -101,4 +103,6 @@ public class BubbleSort {
 ![image](https://user-images.githubusercontent.com/107795830/223332997-714efe27-232f-4480-b506-2cdc0aa31e8c.png)
 
 ## 3. 퀵 정렬(Quick sort)
+
+### 퀵 정렬 알고리즘 
 
