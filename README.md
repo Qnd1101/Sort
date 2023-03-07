@@ -1,9 +1,9 @@
 # 정렬
-1. 삽입 정렬(Insertion Sort)
-2. 버블 정렬(Bubble Sort)
-3. 퀵 정렬(Quick Sort)
+  I. 삽입 정렬(Insertion Sort)
+ II. 버블 정렬(Bubble Sort)
+III. 퀵 정렬(Quick Sort)
 
-## 삽입 정렬(Insertion Sort)
+# I. 삽입 정렬(Insertion Sort)
 
 
 ### 1. 삽입 정렬 알고리즘 
@@ -58,7 +58,7 @@ public class Insertion_sort {
 ### 4. 코드 결과
 ![삽입 정렬 결과](https://user-images.githubusercontent.com/107795830/223327355-7d489836-065f-42dc-84ca-9ec968c1b18c.png)
 
-## 버블 정렬(Bubble Sort)
+# II. 버블 정렬(Bubble Sort)
 
 ### 1. 버블 정렬 알고리즘 개념
 * 옆에 닿아 있는 원소와 비교하여 정렬한다.
@@ -105,7 +105,7 @@ public class BubbleSort {
 ### 4. 코드 결과
 ![image](https://user-images.githubusercontent.com/107795830/223332997-714efe27-232f-4480-b506-2cdc0aa31e8c.png)
 
-## 퀵 정렬(Quick sort)
+# III. 퀵 정렬(Quick sort)
 
 ### 1. 퀵 정렬 알고리즘 개념
 * 퀵 정렬은 평균적으로 매우 빠른 속도를 자랑하는 정렬이다.
