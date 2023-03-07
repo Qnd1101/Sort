@@ -1,6 +1,8 @@
 # 정렬
 
 ***
+***
+
 ### 삽입 정렬(Insertion Sort)
 
 
@@ -32,16 +34,16 @@ public class Insertion_sort {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] arr = {3, 5, 2, 6, 7};
+		int[] arr = {8, 3, 4, 9, 7};
 		int temp = 0;
 		
 		System.out.println("정렬 전" + Arrays.toString(arr));
-		for(int i = 1; i < arr.length; i++) { 	// 삽입 정렬은 두번째 자리부터 시작하기 때문에 i를 1로 지정하였습니다.
+		for(int i = 1; i < arr.length; i++) { 		// 삽입 정렬은 두번째 자리부터 시작하기 때문에 i를 1로 지정하였습니다.
 			for(int j = i; j > 0; j--) {  		// 배열 방번호 
-				if(arr[j-1] > arr[j]) { 		// j-1이 j보다 클경우 조건이 성립하게 만들었습니다.
-					 temp = arr[j-1]; 			// 자리를 옮겨주기 위해서 temp값에 arr[j-1]을 저장하였습니다.
-				     arr[j-1] = arr[j];			// j-1자리에 j를 옮기기 위한 코드입니다.
-				     arr[j] = temp;				// temp에 저장한 값을 arr[j]방에 넣어주었습니다.
+				if(arr[j-1] > arr[j]) { 	// j-1이 j보다 클경우 조건이 성립하게 만들었습니다.
+					 temp = arr[j-1]; 	// 자리를 옮겨주기 위해서 temp값에 arr[j-1]을 저장하였습니다.
+				     arr[j-1] = arr[j];		// j-1자리에 j를 옮기기 위한 코드입니다.
+				     arr[j] = temp;		// temp에 저장한 값을 arr[j]방에 넣어주었습니다.
 				}
 			}
 			System.out.printf("정렬 과정 : %d번 %s\n", i, Arrays.toString(arr));
