@@ -35,4 +35,4 @@ asdasd
    * 'pass 2'부터는 맨 끝에 있는 자료는 정렬에서 제외되고, 1회전을 수행 할 때마다 제외되는 데이터가 하나씩 늘어난다.
 
 ### 버블 정렬 방법
-
+![Bubble_Sort](https://user-images.githubusercontent.com/107795830/223307683-99ffbdbc-a419-46bb-a5c0-8c62d1e943a5.png)
