@@ -54,6 +54,9 @@ public class Insertion_sort {
 }
 
 ```
+
+### 출력화면
+![Bubble_Sort](https://ibb.co/DYdQpbt.png)
 ***
 
 ### 버블 정렬(Bubble Sort)
