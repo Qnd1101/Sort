@@ -3,7 +3,7 @@
 ***
 ***
 
-### 삽입 정렬(Insertion Sort)
+## 삽입 정렬(Insertion Sort)
 
 
 ### 삽입 정렬 알고리즘 개념
@@ -59,7 +59,7 @@ public class Insertion_sort {
 ![삽입 정렬 결과](https://user-images.githubusercontent.com/107795830/223327355-7d489836-065f-42dc-84ca-9ec968c1b18c.png)
 ***
 
-### 버블 정렬(Bubble Sort)
+## 버블 정렬(Bubble Sort)
 
 ### 버블 정렬 알고리즘 개념
 * 옆에 닿아 있는 원소와 비교하여 정렬한다.
